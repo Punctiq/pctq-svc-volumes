@@ -1,0 +1,8 @@
+version: '3.9'
+
+volumes:
+  pctq_jenkins_data:
+  pctq_grafana_data:
+  prometheus_data:
+  pctq_prometheus_data:
+  
