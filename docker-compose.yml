@@ -1,8 +1,7 @@
 version: '3.9'
 
 volumes:
-  pctq_jenkins_data:
-  pctq_grafana_data:
-  prometheus_data:
-  pctq_prometheus_data:
-  
+  pctq_jenkins_data:       # Persistent Jenkins home
+  pctq_grafana_data:       # Grafana dashboards and config
+  pctq_prometheus_data:    # Prometheus TSDB and metrics
+  pctq_influxdb_data:      # InfluxDB data
